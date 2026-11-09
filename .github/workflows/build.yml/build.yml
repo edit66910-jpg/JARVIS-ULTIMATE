@@ -24,6 +24,7 @@ jobs:
 
       - name: Extract project
         run: unzip -q JARVIS_ULTIMATE_v01.zip
+        # JARVIS build trigger
 
       - name: Build APK
         run: |
